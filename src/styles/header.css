@@ -1,0 +1,134 @@
+header {
+    width: 100%;
+    padding: 28px 8%;
+    position: flex;
+    top: 0;
+    background-color: #000000;
+    z-index: 3;
+}
+
+#social-media-buttons1 {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    padding: 0px 8% 0px 0px;
+    width: 100%;
+    gap: 10px;
+    color: #daa520;
+
+
+
+}
+
+.fa-tiktok {
+
+    color: #daa520;
+
+}
+
+.fa-youtube {
+
+    color: #daa520;
+
+}
+
+.fa-twitch {
+
+    color: #daa520;
+
+}
+
+.fa-instagram {
+
+    color: #daa520;
+
+}
+
+.fa-facebook {
+
+    color: #daa520;
+
+}
+
+.fa-twitter {
+
+    color: #daa520;
+
+}
+
+
+
+
+
+#navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_logo {
+    font-size: 24px;
+    width: 8%;
+    color: var(--color-primary-6);
+}
+
+#nav_list {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-item a {
+    text-decoration: none;
+
+    color: #fff;
+    font-weight: 600;
+}
+
+.nav-item.active a {
+    color: #fff;
+    border-bottom: 3px solid var(--color-primary-4);
+}
+
+#mobile_btn {
+    display: none;
+}
+
+#mobile_menu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+
+
+
+    #mobile_btn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item {
+
+        text-align: center;
+    }
+}
